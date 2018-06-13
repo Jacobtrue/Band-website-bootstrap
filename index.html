@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>band</title>
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <!-- AUDIO PLAYER-->
+    <div id="streaming-bar">
+    <img class="audio-cover" src="assets/img/cover.jpg">
+    <p class="audio-title">Faded // Faded</p>
+    <audio controls>
+        <source src="https://z0sqrs-a.akamaihd.net/1383-imagene/music/Faded.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
+    </div>
+    <!-- /AUDIO PLAYER -->
+
+    <!-- NAVIGATION -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#242424;color:#ffffff;-webkit-box-shadow:0px 0px 16px 0px black;-moz-box-shadow:0px 0px 16px 0px black;box-shadow:0px 0px 16px 0px black;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo2.png" width="250" alt="Band Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#images">Images</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <!-- NAVIGATION END -->
+
+    <!-- HERO VIDEO -->
+    <div id="hero">
+        <video playsinline autoplay muted loop poster="placeholder.jpg" id="bgvideo" width="100%" height="100%">
+            <source src="../Band website bootstrap/assets/vid/I'MAGENE _ 'Faded' _ Official Music Video-u2I8yfWrxpc.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- HERO VIDEO END -->
+
+    <!-- STREAMING SERVICES -->
+    <a name="about"></a>
+    <div class="d-flex streaming" style="background-color:rgb(92,19,32);background-image:url(&quot;assets/img/IMG_6090.jpg&quot;);background-position:center;background-attachment: fixed;width:100%;height:155px;">
+        <div class="container d-table-row d-flex justify-content-center align-items-center align-content-center align-self-center"
+            style="width:100%;">
+            <a href="https://open.spotify.com/artist/1TkVEFBsntOWUHu0yEx7PP" target="_blank" data-toggle="tooltip" data-placement="top"
+                title="Spotify">
+                <img class="img-fluid flex-shrink-1" src="../Band website bootstrap/assets/img/spotify.png" style="width:75px;margin-right:50px;margin-left:50px;">
+            </a>
+            <a href="https://itunes.apple.com/us/artist/imagene/1307570336" target="_blank" data-toggle="tooltip" data-placement="top"
+                title="iTunes">
+                <img class="img-fluid flex-shrink-1" src="../Band website bootstrap/assets/img/itunes.png" style="width:75px;margin-right:50px;margin-left:50px;">
+            </a>
+            <a href="https://store.cdbaby.com/cd/imagene" target="_blank" data-toggle="tooltip" data-placement="top" title="CD Baby">
+                <img class="img-fluid flex-shrink-1" src="../Band website bootstrap/assets/img/cdbaby.png" style="width:75px;margin-right:50px;margin-left:50px;">
+            </a>
+            <a href="https://soundcloud.com/imagenemusic" target="_blank" data-toggle="tooltip" data-placement="top" title="SoundCloud">
+                <img class="img-fluid d-flex flex-shrink-1" src="../Band website bootstrap/assets/img/soundcloud.png" style="width:75px;margin-right:50px;margin-left:50px;">
+            </a>
+        </div>
+    </div>
+    <!-- STREAMING SERVICES END -->
+
+    <!-- ABOUT -->
+    <div style="background-color:#323234;padding-top:20px;padding-bottom:20px;">
+        <div class="container" style="margin-top:0;margin-bottom:0;">
+            <div class="row">
+                <div class="col-md-6 align-self-center my-auto">
+                    <h1 style="color:white;">About I'MAGENE</h1>
+                    <p style="color:white;">Florida Panhandle-based I’MAGENE (ex-Continuum) is a 4-piece band utilizing the terms Retro Electro Soul
+                        to describe their own singular style.
+                        <br>
+                    </p>
+                    <p style="color:white;">Constantly focusing their craft, they’ve rapidly grown their fan base both regionally and nationally.
+                        They’ve spent the majority of the last year bouncing across the US multiple times consistently releasing
+                        content that documents both their journey and growth as a band.</p>
+                    <p style="color:white;">The passion and determination of these four 20-somethings is evident in everything they do and can absolutely
+                        be heard on any of their releases.</p>
+                    <p style="color:white;">When you see them live, it is like stepping into another world. Each song connects to some of the most
+                        powerful emotions a person can experience in their lives. Their music envelopes you in memories of
+                        the past or perhaps a situation that may still be unfolding.
+                        <br>
+                    </p>
+                    <p style="color:white;">I’MAGENE is certain to radiate passion and create a connection of body and soul for all who have the
+                        desire to feel.</p>
+                </div>
+                <!-- SCHEDULE-->
+                <div class="col-md-6 d-flex justify-content-center my-auto" style="margin-top:0;padding-top:33px;padding-bottom:33px;">
+                    <iframe class="widget_iframe" src="https://www.reverbnation.com/widget_code/html_widget/imagenemusic?widget_id=52&amp;posted_by=fan_1162964&amp;pwc[design]=default&amp;pwc[background_color]=%23eb00eb&amp;pwc[layout]=detailed&amp;pwc[show_map]=0&amp;pwc[size]=custom"
+                        width="450px" height="500" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <!-- SCHEDULE END -->
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT END -->
+
+    <!-- BAND MEMBERS -->
+    <a name="images"></a>
+    <div class="d-flex justify-content-center align-items-center align-content-center team-grid" style="background-color:#474747;width:100%;">
+        <div class="container-fluid justify-content-center align-items-center align-content-center" style="margin:0px;padding:0px;width:100%;">
+            <div class="intro"></div>
+            <div class="row people" style="padding:0px;width:100%;margin:0px;">
+                <div class="col-md-4 col-lg-3 item" style="padding:0px;margin:0px;">
+                    <div class="box" style="background-image:url(assets/img/1.jpg);">
+                        <div class="cover" style="background-color:rgba(12, 110, 196, 0.74);padding-top:150px;">
+                            <h3 class="name">Jessica Heit</h3>
+                            <p class="title">Violin & Vocals</p>
+                            <div class="social">
+                                <a href="#">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item" style="margin:0px;padding:0px;">
+                    <div class="box" style="background-image:url(assets/img/2.jpg)">
+                        <div class="cover" style="background-color:rgba(12, 110, 196, 0.74);padding-top:150px;">
+                            <h3 class="name">Robby Walton</h3>
+                            <p class="title">Guitars, Vocals & Keys</p>
+                            <div class="social">
+                                <a href="#">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item" style="margin:0px;padding:0px;">
+                    <div class="box" style="background-image:url(assets/img/3.jpg)">
+                        <div class="cover" style="background-color:rgba(12, 110, 196, 0.74);padding-top:150px;">
+                            <h3 class="name">Charlie Buice</h3>
+                            <p class="title">Drums</p>
+                            <div class="social">
+                                <a href="#">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item" style="margin:0px;padding:0px;">
+                    <div class="box" style="background-image:url(assets/img/4.jpg)">
+                        <div class="cover" style="background-color:rgba(12, 110, 196, 0.74);;padding-top:150px;">
+                            <h3 class="name">Anthony O'Shae</h3>
+                            <p class="title">Vocals & Keys</p>
+                            <div class="social">
+                                <a href="#">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BAND MEMBERS END -->
+
+    <!-- PHOTO GALLERY -->
+    <div class="photo-gallery" style="background-color:#323234;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="color:white;">Lightbox Gallery</h2>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="assets/img/desk.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="assets/img/desk.jpg">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="assets/img/building.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="assets/img/building.jpg">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="assets/img/loft.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="assets/img/loft.jpg">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="assets/img/building.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="assets/img/building.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PHOTO GALLERY END -->
+
+    <!-- CONTACT -->
+    <a name="contact"></a>
+    <div class="register-photo" style="background-size:cover;background-repeat:no-repeat;background-color:rgb(92,19,32);background-image:url(&quot;assets/img/IMG_61761.jpg&quot;);background-position:center;background-attachment: fixed;width:100%; height: 800px;">
+        <div class="form-container" style="width:100%;height:554px;">
+            <div class="image-holder" style="background-image:url(&quot;assets/img/contact.jpg&quot;);padding-left:0px;margin-left:25px;"></div>
+            <form method="post" style="background-color:#313437;margin-right:25px;">
+                <h2 class="text-center" style="color:white;">Contact Us</h2>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="Name" style="color:white;background-color:#474747;">
+                </div>
+                <div class="form-group">
+                    <input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="color:white;background-color:#474747;">
+                    <small class="form-text text-danger">Please enter a correct email address.</small>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="14" name="message" placeholder="Message" style="height:100px;color:white;background-color:#474747;"></textarea>
+                </div>
+                <div class="form-group" style="margin-bottom:30px;">
+                    <button class="btn btn-primary" type="submit" style="width:480px;padding:6px 12px;height:40px;margin:0px;margin-top:20px;">send </button>
+                </div>
+                <small class="form-text text-danger" style="width:280px;">
+                    <strong>General Manager:&nbsp;</strong>Jared Cramblet&nbsp;</small>
+            </form>
+        </div>
+    </div>
+    <!-- CONTACT END -->
+
+    <!-- FOOTER -->
+    <footer id="myFooter" style="padding:0px;">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col footer-social" style="background-color:#323234;background-image:url(&quot;assets/img/IMG_6090.jpg&quot;);background-position:center;background-attachment: fixed;width:100%;z-index: -1000;">
+                    <img src="assets/img/logo.png" style="padding-bottom:35px;padding-top:20px;">
+                    <div class="row"></div>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-google-plus"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <p class="footer-copyright" style="padding-top:35px;">© 2018 Copyright Text ~ Designed By &nbsp;
+                        <a href="http://jacobandrewtrue.com">Jacob True</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+    <script type="text/javascript">
+        $("[data-toggle=\"tooltip\"]").tooltip();
+    </script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/Filterable-Gallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+/* GLOBAL */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  margin-top: 70px;
+}
+/* GLOBAL END */
+
+/* HERO VIDEO END */
+video#bgvideo {
+  margin-bottom: -10px;  
+}
+/* HERO VIDEO END */
+
+
+/* STREAMING SERVICES */
+.streaming {
+  color: #fff;
+  background-color: #1e6add;
+  padding: 50px 0;
+}
+/* STREAMING SERVICES END */
+
+
+/* AUDIO PLAYER */
+audio {
+  background-image: url(../img/IMG_6090.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  width:100%;
+  height:120px;
+  text-align:center;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the window*/
+  left:0;
+  padding: 36px;
+  padding-left: 120px;
+  padding-right: 80px;
+  z-index: 999;
+  backface-visibility: hidden;
+}
+
+.audio-cover {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  z-index:1000;
+}
+
+.audio-title {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 75px;
+  padding-left: 120px;
+  z-index:1000;
+}
+/* AUDIO PLAYER END */
+
+/* BAND MEMBERS */
+.team-grid {
+  color: #313437;
+  background-color: #fff;
+}
+
+.team-grid p {
+  color: #7d8285;
+}
+
+.team-grid h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .team-grid h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.team-grid .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-grid .intro p {
+  margin-bottom: 0;
+}
+
+.team-grid .people {
+  padding: 50px 0;
+}
+
+.team-grid .item {
+  margin-bottom: 30px;
+}
+
+.team-grid .item .box {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-grid .item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+  padding-top: 80px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.team-grid .item:hover .cover {
+  opacity: 1;
+}
+
+.team-grid .item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.team-grid .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bbd8fb;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.team-grid .social {
+  font-size: 25px;
+}
+
+.team-grid .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-grid .social a:hover {
+  opacity: 1;
+}
+/* BAND MEMBERS END */
+
+/* PHOTO GALLERY */
+.photo-gallery {
+  color: #313437;
+  background-color: #fff;
+}
+
+.photo-gallery p {
+  color: #7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
+/* PHOTO GALLERY END */
+
+
+/* CONTACT */
+.register-photo {
+  background: #f1f7fc;
+  padding: 120px 0;
+  display: inline-flex;
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: 500px;
+  background: url(../../assets/img/meeting.jpg);
+  background-size: cover;
+  /*border-radius: 10px 0 0 10px;*/
+}
+
+.register-photo .form-container {
+  display: table;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 600px;
+  background-color: transparent;
+  padding: 40px 60px;
+  color: #505e6c;
+  /*border-radius: 0 10px 10px 0;*/
+}
+
+@media (max-width: 991px) {
+  .register-photo form {
+    padding: 40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register-photo form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #242424;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.register-photo form .btn-primary {
+  background: rgb(92, 19, 32);
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+  background: #eb3b60;
+}
+
+.register-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+/* CONTACT END */
+
+/* FOOTER */
+
+#myFooter {
+  padding-top: 32px;
+}
+
+#myFooter .footer-copyright {
+  margin-bottom: 115px;
+  text-align: center;
+  color: #b3b3b5;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+#myFooter a {
+  color: #b3b3b5;
+  font-size: 18px;
+}
+
+#myFooter li {
+  display: inline-block;
+  margin: 0px 15px;
+  line-height: 2;
+}
+
+#myFooter .footer-social {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  background-color: #eee;
+}
+
+#myFooter .fa {
+  font-size: 36px;
+  margin-right: 15px;
+  margin-left: 20px;
+  background-color: white;
+  color: #d0d0d0;
+  border-radius: 51%;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 43px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#myFooter {
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+}
+/* FOOTER END */
