@@ -14,8 +14,9 @@ html {
 video#bgvideo {
   margin-bottom: -10px;
 }
-
-
+.hero {
+  margin-bottom: -10px;
+}
 
 /* HERO VIDEO END */
 
