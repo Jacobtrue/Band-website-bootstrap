@@ -12,8 +12,15 @@ html {
 
 /* HERO VIDEO END */
 video#bgvideo {
-  margin-bottom: -10px;  
+  margin-bottom: -10px;
+  font-size: 0 !important; 
 }
+
+#hero {
+  font-size: 0 !important;
+}
+
+
 /* HERO VIDEO END */
 
 /* NAVBAR BRAND */
