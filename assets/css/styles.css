@@ -15,8 +15,8 @@ video#bgvideo {
   position: absolute;
   top: 0;
   left: 0;
-  width: 105%;
-  height: 105%;
+  width: 110%;
+  height: 110%;
   overflow: hidden;
 }
 .hero {
