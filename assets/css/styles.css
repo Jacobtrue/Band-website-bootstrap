@@ -12,13 +12,11 @@ html {
 
 /* HERO VIDEO END */
 video#bgvideo {
-  margin-bottom: -10px;
-  overflow-x:hidden
+  margin: 0px;
+  display: block;
 }
-.hero {
-  margin-bottom: -10px;
-  overflow-x:hidden
-}
+
+
 
 /* HERO VIDEO END */
 
