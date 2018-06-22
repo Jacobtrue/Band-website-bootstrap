@@ -18,6 +18,8 @@ video#bgvideo {
   width: 110%;
   height: 110%;
   overflow: hidden;
+  display: block;
+  float: left;
 }
 .hero {
   position: fixed;
@@ -27,6 +29,8 @@ video#bgvideo {
   right: 0;
   overflow: hidden;
   z-index: -100;
+  display:block;
+  float: left;
 }
 
 /* HERO VIDEO END */
