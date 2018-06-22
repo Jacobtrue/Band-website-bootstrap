@@ -12,11 +12,16 @@ html {
 
 /* HERO VIDEO END */
 video#bgvideo {
-  margin: 0px;
+  width: 100%;
+  height: 100%;
   display: block;
 }
-
-
+.hero {
+  margin-bottom: -10px;
+  width: 105% !important;
+  display: block;
+  float: left;
+}
 
 /* HERO VIDEO END */
 
